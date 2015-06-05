@@ -1,2 +1,11 @@
+# language setting
+language: php
+
+# version numbers to test
+php:
+    - 5.4
+
+services:
+  - redis
 
 script: true
