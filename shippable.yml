@@ -10,7 +10,7 @@ services:
 
 script: true
 
-after_success:
-	- sudo mv /index.php /var/www/index.php
-	- sudo mv /controllers.js /var/www/controllers.js
-	- sudo mv /index.html /var/www/index.html
+# after_success:
+#	- sudo mv /index.php /var/www/index.php
+#	- sudo mv /controllers.js /var/www/controllers.js
+#	- sudo mv /index.html /var/www/index.html
